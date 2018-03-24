@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Patungan</string>
+    <string name="brandlogo">brandlogo</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Log In</string>
+    <string name="tagline">Belanja bareng jadi mudah!</string>
+    <string name="app_title">Patungan</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="verify_identity">You will receive an email to verify your identity</string>
+    <string name="forgot_password">Forgot your password ?</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="name_user">Rafly Syam</string>
+    <string name="post_count">0 POST</string>
+</resources>

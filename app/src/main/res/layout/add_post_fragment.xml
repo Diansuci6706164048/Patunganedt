@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="32dp"
+    tools:context="org.d3ifcool.patungan.RegisterActivity">
+
+    <TextView
+        android:id="@+id/registerTitle_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add a new post"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/title_edittext"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="24dp"
+        android:hint="Title"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/date_edittext"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_marginTop="12dp"
+        android:hint="Choose Due Date"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/price_edittext"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="12dp"
+        android:hint="Price"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="#1A237E"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:text="POST" />
+
+    <TextView
+        android:id="@+id/emailNotifHint_textview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_identity"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:src="@drawable/userphoto"
+        android:id="@+id/foto"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_textview"
+            android:textSize="16sp"
+            tools:text="Samsungg Gear V5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/duedate_textview"
+            android:textSize="14sp"
+            tools:text="Due date : 16/01/2019"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/price_textview"
+            android:textSize="14sp"
+            tools:text="Rp 1.250.000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/details_textview"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            tools:text="Details"
+            android:textAllCaps="true"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
